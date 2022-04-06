@@ -1,3 +1,9 @@
+*========================================
+* Private instance
+* import   otype  TYPE REF TO CL_ABAP_TYPEDESCR
+* import   object TYPE any
+* changing json   TYPE string
+*========================================
 method STRUCTURE_TO_JSON.
   DATA: lo_type TYPE REF TO cl_abap_typedescr,
         lo_stru TYPE REF TO cl_abap_structdescr,
