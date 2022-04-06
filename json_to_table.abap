@@ -1,3 +1,10 @@
+*========================================
+* Private instance
+* importing json   TYPE string
+* changing  object TYPE any
+* changing  offset TYPE i DEFAULT 0
+* exception zcx_invalid_data
+*========================================
 method JSON_TO_TABLE.
   DATA: lo_typed TYPE REF TO cl_abap_typedescr,
         lo_struc TYPE REF TO data,
