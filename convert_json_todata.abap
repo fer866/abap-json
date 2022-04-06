@@ -1,3 +1,8 @@
+*========================================
+* Public instance
+* importing value(json) TYPE string
+* changing  object      TYPE any
+*========================================
 method CONVERT_JSON_TODATA.
   DATA: lo_type  TYPE REF TO cl_abap_typedescr,
         lv_offst TYPE i,
