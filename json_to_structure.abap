@@ -1,3 +1,10 @@
+*========================================
+* Private instance
+* importing json   TYPE string
+* changing  object TYPE any
+* changing  offset TYPE i DEFAULT 0
+* exception zcx_invalid_data
+*========================================
 method JSON_TO_STRUCTURE.
   DATA: lv_lengt TYPE i,
         lv_sname TYPE string,
