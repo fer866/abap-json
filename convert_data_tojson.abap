@@ -1,7 +1,7 @@
 *========================================
 * Public instance
-* object      TYPE any
-* value(json) TYPE string
+* importing object      TYPE any
+* returning value(json) TYPE string
 *========================================
 
 method CONVERT_DATA_TOJSON.
