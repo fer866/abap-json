@@ -2,7 +2,7 @@
 * Private instance
 * importing json   TYPE string
 * changing  object TYPE any
-* changing  offset type i default 0
+* changing  offset TYPE i DEFAULT 0
 * exception zcx_invalid_data
 *========================================
 method JSON_TO_COMPONENT.
