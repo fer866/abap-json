@@ -1,3 +1,9 @@
+*========================================
+* Private instance
+* importing otype  TYPE REF TO CL_ABAP_TYPEDESCR
+* importing otable TYPE any table
+* changing  json   TYPE string
+*========================================
 method TABLE_TO_JSON.
   DATA: lo_type TYPE REF TO cl_abap_typedescr,
         lo_stru TYPE REF TO cl_abap_structdescr,
