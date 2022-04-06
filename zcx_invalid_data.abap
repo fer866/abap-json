@@ -1,3 +1,7 @@
+*========================================
+* Texts
+* ZCX_INVALID_DATA_JSON_IDX = Formato JSON incorrecto en el índice &indice&
+*========================================
 class ZCX_INVALID_DATA definition
   public
   inheriting from CX_STATIC_CHECK
