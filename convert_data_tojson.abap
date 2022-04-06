@@ -17,7 +17,7 @@ method CONVERT_DATA_TOJSON.
       me->table_to_json( EXPORTING otype = lo_type otable = object CHANGING json = json ).
 
     WHEN OTHERS.
-      sy-subrc = 4
+      sy-subrc = 4.
   ENDCASE.
 
 endmethod.
