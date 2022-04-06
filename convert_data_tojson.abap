@@ -1,3 +1,9 @@
+*========================================
+* Public instance
+* object      TYPE any
+* value(json) TYPE string
+*========================================
+
 method CONVERT_DATA_TOJSON.
   DATA: lo_type TYPE REF TO cl_abap_typedescr.
 
